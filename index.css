@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Overpass", sans-serif;
+  font-weight: 400, 700;
+}
+body {
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(216, 12%, 8%);
+}
+#mainContainer {
+  display: flex;
+  position: relative;
+  margin-left: 38%;
+  margin-top: 10%;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 1rem;
+  padding: 30px 30px 30px 30px;
+  background-color: #212832;
+  text-align: center;
+}
+
+#btnArea {
+  position: absolute;
+  align-items: center;
+  top: 15px;
+  left: 13px;
+}
+
+.btn {
+  cursor: pointer;
+  justify-content: center;
+  align-items: baseline;
+  text-decoration: none;
+  padding: 15px 20px 15px 20px;
+  border-color: transparent;
+  margin-top: 14rem;
+  margin-left: 1rem;
+  border-radius: 3rem;
+  font-size: 15px;
+  background-color: #262f38;
+  color: hsl(217, 12%, 63%);
+}
+.btn:hover {
+  background-color: #fc7613;
+  color: hsl(0, 0%, 100%);
+}
+.btnSubmit {
+  padding: 10px 20px 20px 20px;
+  text-align: center;
+  left: 5rem;
+  height: 2.7rem;
+  width: 23rem;
+  border-radius: 2rem;
+  position: absolute;
+  top: 20rem;
+  left: 1rem;
+  background-color: #fc7613;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  font-size: 15px;
+}
+.btnSubmit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: #fc7613;
+}
+#textArea {
+  resize: none;
+}
+
+.titleArea {
+  margin-right: 10rem;
+  font-size: 24px;
+  padding-bottom: 1rem;
+  color: hsl(0, 0%, 100%);
+  padding-top: 40px;
+  margin-bottom: 5px;
+}
+.paraArea {
+  font-size: 16px;
+  font-size: larger;
+  margin-right: 3rem;
+  width: fit-content;
+  color: rgba(255, 255, 255, 0.527);
+}
+
+.thankYouContainer {
+  display: flex;
+  position: relative;
+  margin-left: 13%;
+  margin-top: 10%;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 1rem;
+  padding: 30px 30px 30px 30px;
+  background-color: #212832;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  left: 25%;
+}
+
+.thankImg {
+  margin-left: 5rem;
+}
+
+.spanParaOrange {
+  position: absolute;
+  top: 10rem;
+  color: orange;
+  left: 4rem;
+  box-sizing: border-box 4px solid #0000;
+  background-color:#262F38 ;
+  padding: 10px 60px 10px 60px;
+  font-size: 1rem;
+  border-radius: 2rem;
+}
+#textArea2{
+  position: absolute;
+  top: 14rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  color: rgba(255, 255, 255, 0.824);
+  font-size: 18px;
+  
+}
+.tituloThank{
+  margin-top: 20px;
+ position: absolute;
+ text-align: center;
+ row-gap: 25rem;
+ color: white;
+}
+.thankYouContainer.hide{
+  display: none;
+}
+
+.starImg{
+  box-sizing: border-box;
+  background-color: #262F38;
+  padding: 8px 12px 8px 12px;
+  border-radius: 2rem;
+  position: absolute;
+  top: 15px;
+}
+
+#rate-again{
+  padding: 10px 40px 10px 40px;
+   margin-top: 1rem;
+   border-radius: 2rem;
+   color: white;
+   background-color: #fc7613;
+   cursor: pointer;
+}
+#rate-again:hover{
+  background-color: white;
+  color: #fc7613;
+}
+.ratingSpan{
+  color: #fc7613;
+}

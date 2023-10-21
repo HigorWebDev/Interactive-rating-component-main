@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,100;1,200&family=Montserrat:wght@400;600&family=Overpass:ital,wght@0,100;1,400&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Interactive-rating-component-main</title>
+   <div id="mainContainer" >
+     <section id="starImg">
+        <img src="images/icon-star.svg" class="starImg">
+     </section>
+     <section id="textArea">
+        <h1 class="titleArea">How did we go?</h1>
+        <p class="paraArea">
+          Please let us know how we did with your support 
+          request. All feedback is appreciated to help us 
+          improve our offering!
+        </p>
+     </section>
+     <section id="btnArea">
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+     </section>
+     <button class="btnSubmit" id="submit-rating">Submit</button>
+   </div>
+   <div class="thankYouContainer hide">
+      <section id="thankImgSection">
+        <img src="images/illustration-thank-you.svg" class="thankImg">
+      </section>
+      <p class="spanParaOrange">You selected <span class="ratingSpan"></span> out of 5</p>
+      <section id="textArea2">
+         <h1 class="tituloThank'">Thank You!</h1>
+         <p class="paraThank">We appreciated you taking the time to give a rating.
+            if you ever neede more support, don't hesitate to
+            get in touch!
+         </p>
+         <button  id="rate-again">Rate Again</button>
+      </section>
+   </div>
+</body>
+</html>
